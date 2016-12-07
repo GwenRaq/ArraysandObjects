@@ -20,3 +20,15 @@ var donut = {
 	shape: "square",
 	count: 12
 }
+
+function omg(p){
+	console.log(p[1]+p[2]);
+}
+omg(numbers);
+
+function lol(par){
+	for (var i = 0; i <= par.length; i++){
+	console.log("I have " + i+ " ducks.");
+	}
+}
+lol(numbers);
