@@ -32,3 +32,13 @@ function lol(par){
 	}
 }
 lol(numbers);
+
+function ok(par){
+	if(par == true){
+		console.log("Hello number "+ donut.toppings[1]);
+	}else if(par == false){
+		console.log("Our donut is not a "+ donut.shape);
+	}
+}
+
+ok(donut);
